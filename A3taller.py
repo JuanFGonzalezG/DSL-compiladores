@@ -119,13 +119,13 @@ def mostrar_datos_ejemplos(edad, ingresos, puntaje):
     print(f"\n{"-"*20}Resultado del contexto{"-"*20}")
     print(f"credito aprobado: {contexto_usuario['creditoAprobado']}")
     print(f"\n{"-"*20}Arboles de sintaxis{"-"*20}\n")
-    print(f"{"-"*20}Regla de habilitación{"-"*20}\n")
+    print(f"{"-"*20}Regla de habilitación{"-"*20}")
     regla_habilitar.mostrar_arbol()
-    print(f"\n{"-"*20}Regla de ingresos{"-"*20}\n")
+    print(f"\n{"-"*20}Regla de ingresos{"-"*20}")
     regla_ingresos.mostrar_arbol()
-    print(f"{"-"*20}Regla de riesgo{"-"*20}\n")
+    print(f"{"-"*20}Regla de riesgo{"-"*20}")
     regla_riesgo.mostrar_arbol()
-    print(f"{"-"*20}Regla de aprobación{"-"*20}\n")
+    print(f"{"-"*20}Regla de aprobación{"-"*20}")
     regla_aprobacion.mostrar_arbol()
 
 def mostrar_datos_personalizados(ahorros, deuda, diasMora):
